@@ -1,0 +1,60 @@
+body {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  background-color: #5a452e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon::before {
+  content: "🗨️";
+  font-size: 20px;
+  color: #f4a261;
+}
+
+/* Texto "Messages" */
+.subtext {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #76d86d;
+}
+
+.footer::before {
+  content: "▲";
+  color: #76d86d;
+}
